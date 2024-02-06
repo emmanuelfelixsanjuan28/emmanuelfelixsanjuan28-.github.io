@@ -1,24 +1,81 @@
-:root {
-    --primary: #0275d8;
-    --success: #5cb85c;
-    --info: #5bc0de;
-    --warning: #f0ad4e;
-    --danger: #d9534f;
-    --inverse: #292b2c;
-    --default: #f7f7f7;
-}
-
-body, html {
-    margin: 0px;
-    padding: 0px;
-}
-
-main {
-    margin: 0px auto;
-    width: 1690px;
-    border: 1px solid #000000;
-}
-
-img {
-    width: 100%;
-}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f38989;
+  }
+  
+  header {
+    background-image: url('your-background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff17;
+    text-align: left;
+    padding: 150px 20px;
+    position: relative;
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .styled-letter {
+    font-size: 1.2em;
+    color: #00ff95; /* Change color as per your design */
+    font-weight: bold;
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .styled-letter:hover {
+    transform: scale(1.1);
+  }
+  
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff21;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease-out;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+  
+  .section {
+    padding: 50px 20px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
