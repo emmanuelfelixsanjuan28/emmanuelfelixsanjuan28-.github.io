@@ -22,6 +22,7 @@ nav ul li {
     display: inline;
     margin-right: 20px;
     background: linear-gradient(to right, #4a90e2, #405de6);
+    border-radius: 5px;
 }
 nav ul li :hover {
     color:rgb(113, 113, 236);
@@ -45,9 +46,8 @@ nav ul li a {
     padding: 20px;
     text-align: center;
 }
-
 .product img {
-    max-width: 100%;
+    max-width: 200%;
     height: 200px;
     width: 200px;
 }
