@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #4a90e2, #405de6);;
+    background: linear-gradient(to right, #4a90e2, #405de6);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -13,6 +13,7 @@ header {
 
 nav ul {
     list-style-type: none;
+    
     margin: 0;
     padding: 0;
 }
@@ -20,8 +21,11 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    background: linear-gradient(to right, #4a90e2, #405de6);
 }
-
+nav ul li :hover {
+    color:rgb(113, 113, 236);
+}
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -67,7 +71,7 @@ button:hover {
 }
 
 footer {
-    background: linear-gradient(to right, #4a90e2, #405de6);; background: linear-gradient(to right, #4a90e2, #405de6);;
+    background: linear-gradient(to right, #4a90e2, #405de6);
     color: #fff;
     text-align: center;
     padding: 20px;

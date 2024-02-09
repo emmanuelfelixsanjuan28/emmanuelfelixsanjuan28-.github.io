@@ -26,6 +26,17 @@ header {
 header nav ul {
   list-style: none;
 }
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+header nav ul li a:hover {
+  color:rgb(113, 113, 236);
+} /* Change color on hover */
+
+
 
 header nav ul li {
   display: inline;

@@ -43,8 +43,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff4500; /* Change color on hover */
-}
+    color:rgb(113, 113, 236);
+} /* Change color on hover */
+
 
 .product-gallery {
     padding: 50px 0;
