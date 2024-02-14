@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: green; /* Default background color */
+}
+
+main {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: green; /* Default background color */
+}
+
+.section-cover {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: blue; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-image,
+.div-info {
+    height: 300px;
+    width: 300px;
+}
+
+.div-image {
+    background-color: red;
+    background-image: url("../images/html_logo.png");
+    background-size: cover;
+}
+
+.div-info {
+    background-color: green;
+    color: #ffffff;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body, html {
+        background-color: red; /* Change background color to red for mobile view */
+    }
+
+    .section-cover {
+        background-color: red; /* Change background color to red for mobile view */
+        flex-direction: column !important;
+        height: 100% !important;
+        transition: background-color 0.3s linear; /* Smooth transition for background color change */
+    }
+
+    main {
+        width: 100% !important;
+        transition: background-color 0.3s linear; 
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        background-color:red; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-cover {
+        background-color: yellow; 
+        flex-direction: row !important;
+        transition: background-color 0.3s linear; 
+    }
+}
