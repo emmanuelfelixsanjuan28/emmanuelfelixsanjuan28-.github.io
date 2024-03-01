@@ -1,8 +1,7 @@
 
 
-//Contatenation
 let btnConcat0 = document.getElementById("btn-concat0");
-btnConcat.addEventListener('click', function() {
+btnConcat0.addEventListener('click', function() {
 
     let FullName = document.getElementById("txt-fullname").value;
      
@@ -11,7 +10,7 @@ btnConcat.addEventListener('click', function() {
 });
 
 let btnConcat1 = document.getElementById("btn-concat1");
-btnConcat.addEventListener('click', function() {
+btnConcat1.addEventListener('click', function() {
 
     let FullName = document.getElementById("txt-fullname").value;
      
@@ -20,7 +19,7 @@ btnConcat.addEventListener('click', function() {
 });
 
 let btnConcat2 = document.getElementById("btn-concat2");
-btnConcat.addEventListener('click', function() {
+btnConcat2.addEventListener('click', function() {
 
     let FullName = document.getElementById("txt-fullname").value;
      
